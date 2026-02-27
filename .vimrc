@@ -56,14 +56,14 @@ let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
 
 call plug#begin()
-" Plug 'file:///home/sharkbait/.fzf/fzf'
-Plug 'itchyny/lightline.vim'
-Plug 'junegunn/fzf.vim'
-Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-unimpaired'
-Plug 'tpope/vim-dispatch'
+" " Plug 'file:///home/sharkbait/.fzf/fzf'
+" Plug 'itchyny/lightline.vim'
+" Plug 'junegunn/fzf.vim'
+" Plug 'tpope/vim-commentary'
+" Plug 'tpope/vim-fugitive'
+" Plug 'tpope/vim-surround'
+" Plug 'tpope/vim-unimpaired'
+" Plug 'tpope/vim-dispatch'
 " Plug 'preservim/nerdtree'
 " Plug 'ghifarit53/tokyonight-vim'
 " Plug 'kristijanhusak/vim-hybrid-material'
@@ -117,7 +117,7 @@ let @i = 'yss}yss}wilocal:~/../vimwiki/jk'
 
 command Rt2 set ts=4 sts=4 noet | retab! | set ts=2 sts=2 et | retab!
 
-set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
+" set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
 set nolist
 
 " set colorcolumn=88
