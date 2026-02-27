@@ -55,8 +55,8 @@ au BufNewFile,BufRead *.tpl set filetype=html
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
 
-call plug#begin()
-" " Plug 'file:///home/sharkbait/.fzf/fzf'
+" call plug#begin()
+" Plug 'file:///home/sharkbait/.fzf/fzf'
 " Plug 'itchyny/lightline.vim'
 " Plug 'junegunn/fzf.vim'
 " Plug 'tpope/vim-commentary'
@@ -72,7 +72,7 @@ call plug#begin()
 " Plug 'sheerun/vim-polyglot'
 " Plug 'dense-analysis/ale'
 " Plug 'vimwiki/vimwiki'
-call plug#end()
+" call plug#end()
 
 set termguicolors
 set background=dark
