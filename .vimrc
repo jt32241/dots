@@ -62,7 +62,7 @@ set nolist
 set tw=88
 
 " Add to rtp for plugins
-set rtp+=~/.vim/pack/start*
+set rtp+=~/.vim/pack/start/*
 
 " call plug#begin()
 " Plug 'file:///home/sharkbait/.fzf/fzf'
