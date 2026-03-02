@@ -55,6 +55,15 @@ au BufNewFile,BufRead *.tpl set filetype=html
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
 
+" set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
+set nolist
+
+" set colorcolumn=88
+set tw=88
+
+" Add to rtp for plugins
+set rtp+=~/.vim/pack/start*
+
 " call plug#begin()
 " Plug 'file:///home/sharkbait/.fzf/fzf'
 " Plug 'itchyny/lightline.vim'
@@ -116,9 +125,3 @@ let @p = 'a![](./img/.png)jj4hi'
 let @i = 'yss}yss}wilocal:~/../vimwiki/jk'
 
 command Rt2 set ts=4 sts=4 noet | retab! | set ts=2 sts=2 et | retab!
-
-" set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
-set nolist
-
-" set colorcolumn=88
-set tw=88
