@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # vim: set sw=2 ts=2 sts=2:
 
 set -e
@@ -86,7 +86,6 @@ bootstrap_vim_plugins() {
   }
 
   echo "[cfg::bootstrap] bootstraping vim (selected plugins via rtp)"
-  echo "set rtp+=~/.vim/pack/start*" >> ~/.vimrc
   fetch_plugins \
       "https://github.com/tpope/vim-commentary.git" \
       "https://github.com/tpope/vim-fugitive.git" \
